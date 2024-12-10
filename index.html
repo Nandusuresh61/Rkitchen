@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-kitchen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Rekha's Kitchen🍽️</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to Paradise of Foods🍝🥘</h1>
+            <p class="lead">Experience the finest dining with us.</p>
+            <a href="#menu" class="btn btn-danger btn-lg">Explore Menu</a>
+        </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menu" class="container my-5">
+        <h2 class="text-center mb-4">Our Menu</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Dish 1 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="Chatti-choru.jpg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Chatti Choru</h5>
+                        <p class="card-text">Rustic, flavorful, traditional.. ₹199/-</p>
+                        <button class="btn btn-primary w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dish 2 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="biriyani.jpeg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Biriyani</h5>
+                        <p class="card-text">Spicy, aromatic, savory.. ₹199/-</p>
+                        <button class="btn btn-danger w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dish 3 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="sadhya.jpg" class="card-img-top" alt="Dish 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Sadhya</h5>
+                        <p class="card-text">Festive, diverse, flavorful.. ₹199/-</p>
+                        <button class="btn btn-primary w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu" class="container my-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- Dish 4 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="meen curry.jpeg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Meen Curry</h5>
+                        <p class="card-text">A delicious starter to begin your meal. ₹199/-</p>
+                        <button class="btn btn-danger w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dish 5 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="appam.jpg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Appam</h5>
+                        <p class="card-text">Fast Break Fast. ₹199/-</p>
+                        <button class="btn btn-primary w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dish 6 -->
+            <div class="col">
+                <div class="card menu-card">
+                    <img src="kappa.jpg" class="card-img-top" alt="Dish 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Kappa</h5>
+                        <p class="card-text">Rich, indulgent, satisfying.. ₹199/-</p>
+                        <button class="btn btn-danger w-100">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="container my-5">
+        <h2 class="text-center mb-4">About Us</h2>
+        <p class="text-center">At Rekha's Kitchen, we serve delicious, freshly prepared meals with a focus on quality ingredients and exceptional flavors. Our family-owned restaurant offers a warm and welcoming atmosphere, perfect for any occasion. Join us and experience great food and hospitality at its best.!</p>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="container my-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Rekha's Kitchen. All Rights Reserved.</p>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
